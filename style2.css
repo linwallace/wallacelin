@@ -1,0 +1,24 @@
+.table{
+    margin:0px auto;
+    text-align: center;
+    background-color: #F08A79; 
+    border: 2px solid rgb(80, 80, 80);
+}
+table,th,tr{
+    border-collapse: collapse;
+} 
+table th{
+    height:45px;
+    width:100px;
+    background-color:#C7AFF3;
+    border:0.5px solid; 
+} 
+table tr{
+    height:45px ;
+    width: 100px;
+    background-color:#F1D0F2;
+    border: 0.5px solid;
+}
+table td{
+    border: 0.5px solid;
+}
