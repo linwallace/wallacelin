@@ -1,5 +1,5 @@
 .table{
-    margin:0px 10px;
+    margin:0px 90px;
     text-align: center;
     background-color: #F08A79; 
     border: 2px solid rgb(80, 80, 80);
@@ -39,4 +39,25 @@ nav li a{
 nav li a:hover{
     background-color:lightyellow;
     color: red;
+}
+header{
+    height: 270px;
+    background-color: #85D9F2;
+}
+aside{
+    height: 450px;
+    background-color: #8BFCF9;
+    width: 50%;
+    float: left;
+}
+section{
+    height: 450px;
+    background-color: #8BE6C9;
+    width: 50%;
+    float: left;
+}
+footer{
+    height: 760px;
+    background-color: #8BFCB8;
+    clear: both;
 }
