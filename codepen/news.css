@@ -21,7 +21,6 @@
 	display: inline-block;
 	white-space: normal;
 	vertical-align: top;
-	height: 100%;
 	width: 100%;
 	background: none 50% no-repeat;
 	background-size: cover;
@@ -42,7 +41,9 @@
 }
 
 .CSSgal .prevNext a {
-	background: rgb(30, 25, 25);
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	background: rgb(0, 0, 0);
 	position: absolute;
 	width:       60px;
 	height:      60px;
@@ -141,5 +142,32 @@
 	margin: 0 3px;
 	color: rgba(0,0,0,0.8);
 	text-decoration: none;
+}
 
+/* custom */
+.slider_content{
+    height: 600px;
+}
+
+.food-container{
+    margin-top: 20px;
+}
+
+
+.news_title{
+	color: #fff;
+	font-size: 1vw;
+}
+
+.news_date{
+	color: rgb(255, 255, 255);
+}
+.news_summary{
+	width: 200px;
+	color: #fff;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
 }
